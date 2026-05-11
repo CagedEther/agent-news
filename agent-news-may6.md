@@ -18,8 +18,6 @@ Anthropic published new research measuring AI agent autonomy in practice using d
 
 ## May 10
 
-## May 11
-
 🛠️ **Agentrove: Open-Source AI Coding Workspace**
 
 A dev just dropped **Agentrove**, a self-hosted app that lets you run multiple AI coding agents (Codex, Claude Code, Copilot, Cursor, OpenCode) from a **single unified interface** using the **ACP protocol**.
@@ -36,6 +34,10 @@ The project is still early but actively seeking **stars, feedback, issues, and P
 🔗 GitHub: [https://github.com/Mng-dev-ai/agentrove](https://github.com/Mng-dev-ai/agentrove) 
 
 **Reddit thread:** [https://www.reddit.com/r/codex/comments/1t7n3uq/im_building_agentrove_an_opensource_app_for_ai/](https://www.reddit.com/r/codex/comments/1t7n3uq/im_building_agentrove_an_opensource_app_for_ai/)
+
+
+## May 11
+
 
 
 
