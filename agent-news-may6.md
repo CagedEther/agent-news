@@ -169,10 +169,4 @@ Start simple → iterate → build responsibly → collaborate & grow. Do you ag
 
 ## May 31
 
-## June 15
 
-🧪 **Temporary test entry — safe to delete after verification.**
-
-OpenAI’s [Agents SDK for JavaScript/TypeScript](https://github.com/openai/openai-agents-js) repo is live and describes itself as a lightweight framework for building multi-agent workflows and voice agents. The README lists core building blocks like agents, handoffs, tools, guardrails, human-in-the-loop flows, sessions, tracing, sandbox agents, and realtime/voice agents. It also points developers to the hosted docs and examples, with install instructions via `npm install @openai/agents zod`.
-
-For a deployment write test, this is a useful canonical target: it’s an official OpenAI repo, has active documentation, and is concrete enough to verify link rendering and Discord formatting without presenting this as breaking news.
