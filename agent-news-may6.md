@@ -1,4 +1,4 @@
-# News for week of May 6, 2026
+# Latest News
 
 ## May 6
 
