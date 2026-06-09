@@ -169,4 +169,12 @@ Start simple → iterate → build responsibly → collaborate & grow. Do you ag
 
 ## May 31
 
+## June 18
 
+**Can your agent negotiate *for you*, not just finish the task?**
+
+Microsoft Research’s [SocialReasoning-Bench](https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/) is aimed at a very practical failure mode: agents that schedule the meeting or close the purchase, but accept a bad time or price because they don’t push back.
+
+The benchmark tests two settings — calendar coordination and marketplace negotiation — and scores agents on both **Outcome Optimality** (how much value they secured for the user) and **Due Diligence** (whether they followed a competent process). That distinction feels important: a lucky good result is not the same thing as a trustworthy delegate.
+
+The headline finding is sobering: frontier models usually complete the task, but often leave value on the table, and defensive prompting helps without fixing the problem. Microsoft has also open-sourced the benchmark on GitHub.
