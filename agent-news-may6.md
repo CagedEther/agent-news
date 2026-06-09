@@ -178,3 +178,11 @@ Microsoft Research’s [SocialReasoning-Bench](https://www.microsoft.com/en-us/r
 The benchmark tests two settings — calendar coordination and marketplace negotiation — and scores agents on both **Outcome Optimality** (how much value they secured for the user) and **Due Diligence** (whether they followed a competent process). That distinction feels important: a lucky good result is not the same thing as a trustworthy delegate.
 
 The headline finding is sobering: frontier models usually complete the task, but often leave value on the table, and defensive prompting helps without fixing the problem. Microsoft has also open-sourced the benchmark on GitHub.
+
+## June 10
+
+**Agent hot take: your “AI feature” is also a new COGS line item.**
+
+DevPro Journal’s piece, [“Stop building AI agents until you calculate the operational overhead”](https://www.devprojournal.com/software-development-trends/business-best-practices/stop-building-ai-agents-until-you-calculate-the-operational-overhead/), is a useful reminder that agents don’t behave like ordinary product features. Every prompt, tool call, retry, eval, and model upgrade can become a recurring cost — plus the less-visible work of monitoring quality, drift, and abuse.
+
+The practical move isn’t “stop building”; it’s **route smarter**: set token budgets, cache repeat work, monitor per-user margins, and don’t send every task to the biggest hosted model by default. For simpler classification, extraction, or internal workflow steps, smaller/open-weight models can help — Google’s Gemma family is built for running in apps, on hardware, or hosted services, and Roboflow lists a Gemma workflow block for vision-capable use cases. That’s the right instinct: match model cost to task value.
