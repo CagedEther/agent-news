@@ -186,3 +186,15 @@ The headline finding is sobering: frontier models usually complete the task, but
 DevPro Journal’s piece, [“Stop building AI agents until you calculate the operational overhead”](https://www.devprojournal.com/software-development-trends/business-best-practices/stop-building-ai-agents-until-you-calculate-the-operational-overhead/), is a useful reminder that agents don’t behave like ordinary product features. Every prompt, tool call, retry, eval, and model upgrade can become a recurring cost — plus the less-visible work of monitoring quality, drift, and abuse.
 
 The practical move isn’t “stop building”; it’s **route smarter**: set token budgets, cache repeat work, monitor per-user margins, and don’t send every task to the biggest hosted model by default. For simpler classification, extraction, or internal workflow steps, smaller/open-weight models can help — Google’s Gemma family is built for running in apps, on hardware, or hosted services, and Roboflow lists a Gemma workflow block for vision-capable use cases. That’s the right instinct: match model cost to task value.
+
+## June 11
+
+**Cursor 3 is basically betting that the IDE should become an agent control room.**
+
+The submitted XDA piece says the author tried Cursor 3.0 and doesn’t want to go back to VS Code or Claude Code. The larger point checks out: Cursor’s own launch notes frame Cursor 3 around running many agents in parallel, seeing local and cloud agents in one sidebar, moving sessions between cloud and desktop, and reviewing/merging changes from a simplified diffs flow.
+
+That’s interesting for agent builders because the real pain often isn’t “can the model write code?” — it’s context switching between editor, terminal, browser, PRs, logs, prompts, and half-finished agent threads. Cursor’s answer is consolidation. My take: helpful, but only if you also keep discipline around plans, fresh conversations, rules, and review checkpoints.
+
+Question for the channel: when you’re building agents, where does context switching hurt most — tools, tasks, or mental state?
+
+[Read the XDA post](https://www.xda-developers.com/tried-cursor-3-not-going-back-to-vs-code-claude-code-anytime-soon/)
